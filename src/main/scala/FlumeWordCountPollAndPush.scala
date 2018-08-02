@@ -4,7 +4,7 @@ import org.apache.spark.streaming.dstream.{DStream, ReceiverInputDStream}
 import org.apache.spark.streaming.flume.{FlumeUtils, SparkFlumeEvent}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
-object FlumeWordCountPull {
+object FlumeWordCountPollAndPush {
   System.setProperty("hadoop.home.dir", "D:\\工作\\大数据\\hadoop\\软件\\hadoop-2.6.1")
   System.setProperty("HADOOP_USER_NAME", "hadoop")
 
